@@ -1,4 +1,4 @@
-package com.template.domain.ports.driving;
+package com.flights.domain.ports.driving;
 
 public interface ServiceAdapter {
 

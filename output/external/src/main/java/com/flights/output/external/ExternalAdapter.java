@@ -1,6 +1,6 @@
-package com.template.output.external;
+package com.flights.output.external;
 
-import com.template.domain.ports.driven.ServiceRepositoryPort;
+import com.flights.domain.ports.driven.ServiceRepositoryPort;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

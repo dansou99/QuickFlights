@@ -1,4 +1,4 @@
-package com.template.domain.ports.driven;
+package com.flights.domain.ports.driven;
 
 public interface ServiceRepositoryPort {
 

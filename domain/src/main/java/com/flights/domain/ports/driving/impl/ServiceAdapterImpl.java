@@ -1,7 +1,7 @@
-package com.template.domain.ports.driving.impl;
+package com.flights.domain.ports.driving.impl;
 
-import com.template.domain.ports.driven.ServiceRepositoryPort;
-import com.template.domain.ports.driving.ServiceAdapter;
+import com.flights.domain.ports.driving.ServiceAdapter;
+import com.flights.domain.ports.driven.ServiceRepositoryPort;
 
 public class ServiceAdapterImpl implements ServiceAdapter {
 

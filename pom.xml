@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<name>MultiModuleHexagonalTemplate</name>
+	<name>QuickFlights</name>
 	<description>TBD</description>
 
 
-	<artifactId>HexaMultiTemplate</artifactId>
-	<groupId>com.template</groupId>
+	<artifactId>QuickFlights</artifactId>
+	<groupId>com.flights</groupId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 

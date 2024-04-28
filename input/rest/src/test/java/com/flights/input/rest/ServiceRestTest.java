@@ -1,6 +1,6 @@
-package com.template.input.rest;
+package com.flights.input.rest;
 
-import com.template.domain.ports.driving.ServiceAdapter;
+import com.flights.domain.ports.driving.ServiceAdapter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;

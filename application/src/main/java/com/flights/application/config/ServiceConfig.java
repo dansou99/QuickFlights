@@ -1,9 +1,9 @@
-package com.template.application.config;
+package com.flights.application.config;
 
-import com.template.domain.ports.driven.ServiceRepositoryPort;
-import com.template.domain.ports.driving.ServiceAdapter;
-import com.template.domain.ports.driving.impl.ServiceAdapterImpl;
-import com.template.output.external.ExternalAdapter;
+import com.flights.domain.ports.driven.ServiceRepositoryPort;
+import com.flights.domain.ports.driving.ServiceAdapter;
+import com.flights.domain.ports.driving.impl.ServiceAdapterImpl;
+import com.flights.output.external.ExternalAdapter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
