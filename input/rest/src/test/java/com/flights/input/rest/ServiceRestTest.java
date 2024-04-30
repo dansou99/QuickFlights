@@ -1,5 +1,6 @@
 package com.flights.input.rest;
 
+import com.flights.domain.ports.driving.AirportAdapter;
 import com.flights.domain.ports.driving.ServiceAdapter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
@@ -19,12 +20,15 @@ class ServiceRestTest {
     @Mock
     private ServiceAdapter serviceAdapter;
 
+    @Mock
+    private AirportAdapter airportAdapter;
+
     private ServiceRest serviceRest;
 
     @BeforeEach
     void setUp() {
         openMocks(this);
-        serviceRest = new ServiceRest(serviceAdapter);
+        serviceRest = new ServiceRest(serviceAdapter,airportAdapter);
     }
 
     @Test
